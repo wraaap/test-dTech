@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dieztech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="main__body">
+    <!-- Header -->
+    <!-- Блок header (Шапка сайта) -->
+<header class="header">
+    <div class="header__container container">
+        <!-- Блок logo (Логотип) -->
+        <div class="header__logo logo" role="button" tabindex="0">
+            <a href="#">
+                <img src="img/logo-unicorn.svg" alt="logo">
+            </a>
+        </div>
+        <!-- Блок menu (Навигация по сайту) -->
+        <div class="menu header__menu">
+            <div class="menu__icon">
+                <span></span>
+            </div>
+            <nav class="menu__body">
+                <div class="menu__wrapper">
+                    <ul class="menu__list">
+                        <li class="menu__item menu__item--active" role="button" tabindex="0">
+                            <a href="#" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu__item" role="button" tabindex="0">
+                            <a href="#" class="menu__link">О нас</a>
+                        </li>
+                        <li class="menu__item" role="button" tabindex="0">
+                            <a href="#" class="menu__link">Мероприятия</a>
+                        </li>
+                        <li class="menu__item" role="button" tabindex="0">
+                            <a href="#" class="menu__link">Новости</a>
+                        </li>
+                    </ul>
+                    <div class="menu__btns">
+                        <span role="button" tabindex="0"><a href="#" class="menu__btn-useful menu__btn btn"  role="button" tabindex="0">Полезное</a></span>
+                        <button class="menu__btn-signin menu__btn btn btn--secondary">Личный кабинет</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+    
+<!-- Main Page -->
+<main>
+    <section class="events">
+    <div class="container container__events">
+        <div class="events__top">
+            <h1 class="events__header">Заголовок</h1>
+            <button class="events__btn btn">Смотреть все мероприятия</button>
+        </div>
+        <div class="events__items">
+            <div class="events__item">
+                <a href="#"><img src="img/demo-image.png" alt="" class="events__img"></a>
+                <a href="#"><h3 class="events__item-header">Вебинар "Построение бизнес-модели стартапа"</h3></a>
+                <p class="events__item-desc">2 и 4 сентября, 17:30-19:45</p>
+                <div class="events__item-tag">Вебинар</div>
+            </div>
+            <div class="events__item events__item--active">
+                <a href="#"><img src="img/demo-image.png" alt="" class="events__img"></a>
+                <a href="#"><h3 class="events__item-header">Необходимые меры за 4 месяца до обязательной маркировки товаров легкой промышленности</h3></a>
+                <p class="events__item-desc">10 сентября, 11:00</p>
+                <div class="events__item-tag">Лекция</div>
+            </div>
+            <div class="events__item">
+                <a href="#"><img src="img/demo-image.png" alt="" class="events__img"></a>
+                <a href="#"><h3 class="events__item-header">Вебинар "Customer Development. Инструмент по проверке гипотез о своем клиенте"</h3></a>
+                <p class="events__item-desc">11 сентября, 17:30-19:45</p>
+                <div class="events__item-tag">Вебинар</div>
+            </div>
+            <div class="events__item">
+                <a href="#"><img src="img/demo-image.png" alt="" class="events__img"></a>
+                <a href="#"><h3 class="events__item-header">Выставка «Новые меры финансовой поддержки экспорта»</h3></a>
+                <p class="events__item-desc">10 сентября, 11:00</p>
+                <div class="events__item-tag">Выставка</div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="vocation">
+    <div class="container container__vocation">
+        <h2 class="vocation__header header-h2">Заголовок</h2>
+        <div class="vocation__swiper swiper-container mySwiper">
+            <div class="vocation__items swiper-wrapper">
+                <div class="vocation__item swiper-slide">
+                    <img src="img/vocation-icon-1.svg" alt="" class="vocation__img">
+                    <a href="#" class="vocation__item-desc">Бухгалтеры</a>
+                </div>
+                <div class="vocation__item swiper-slide">
+                    <img src="img/vocation-icon-2.svg" alt="" class="vocation__img">
+                    <a href="#" class="vocation__item-desc">Репетиторы</a>
+                </div>
+                <div class="vocation__item swiper-slide">
+                    <img src="img/vocation-icon-3.svg" alt="" class="vocation__img">
+                    <a href="#" class="vocation__item-desc">Программисты</a>
+                </div>
+                <div class="vocation__item swiper-slide">
+                    <img src="img/vocation-icon-4.svg" alt="" class="vocation__img">
+                    <a href="#" class="vocation__item-desc">Няни<br>
+                        и сиделки</a>
+                </div>
+                <div class="vocation__item swiper-slide">
+                    <img src="img/vocation-icon-1.svg" alt="" class="vocation__img">
+                    <a href="#" class="vocation__item-desc">Бухгалтеры</a>
+                </div>
+                <div class="vocation__item swiper-slide">
+                    <img src="img/vocation-icon-2.svg" alt="" class="vocation__img">
+                    <a href="#" class="vocation__item-desc">Репетиторы</a>
+                </div>
+                <div class="vocation__item swiper-slide">
+                    <img src="img/vocation-icon-3.svg" alt="" class="vocation__img">
+                    <a href="#" class="vocation__item-desc">Программисты</a>
+                </div>
+                <div class="vocation__item swiper-slide">
+                    <img src="img/vocation-icon-4.svg" alt="" class="vocation__img">
+                    <a href="#" class="vocation__item-desc">Няни<br>
+                        и сиделки</a>
+                </div>
+            </div>
+            <div class="vocation__swiper-navigation">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+</main>
+<!-- Footer -->
+<footer>
+    <div class="container__footer container">
+        <div class="footer">
+            <div class="footer__left">
+                Подпись в подвале сайта
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script src="./js/scripts.min.js"></script>
+
+</html>
